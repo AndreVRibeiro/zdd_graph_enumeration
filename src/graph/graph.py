@@ -23,6 +23,7 @@ class Graph:
         self.adjacency[u].append(edge_index)
         self.adjacency[v].append(edge_index)
 
+    # Helper methods to access graph information. Maybe i'll need them :)
     def get_edge(self, index):
         return self.edges[index]
     
